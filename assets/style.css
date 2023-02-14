@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+  width: 380px;
+  height: 320px;
+  margin-top: 25%;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(15,15,88,0.4);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container img{
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}
+
+.container p{
+  color: #fff;
+}
+
+input[type="text"],input[type="password"]{
+  width: 240px;
+  height: 34px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #000;
+  padding-left: 45px;
+  border-radius: 5px;
+}
+
+input[type="submit"]{
+  padding: 15px 25px;
+  background: #150;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #150;
+}
+.cust{
+  position: absolute;
+  margin-right: -6px;
+  margin-top: 10px;
+  width: 44px;
+  height: 44px;
+}
+.eye{
+  position: absolute;
+  margin-left: -48px;
+  margin-top: 8px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+
+h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-weight: 900;
+  font-size: 59px;
+}
+.lines{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+.lines:hover{
+  transform: scale(1.2);
+}
+.close{
+  position: absolute;
+  top: 20px;
+  left: 190px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+ }
+.close:hover{
+  transform: scale(1.2);
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100vh;
+  background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  padding-top: 60px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all .5s;
+}
+.sidebar a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 35px 0 30px 80px;
+  display: block;
+}
+.sidebar a:hover{
+  color: #ddd;
+}
+.user{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+ }
