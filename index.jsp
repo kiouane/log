@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="container">
-      <img src="assets/avatar.png" alt="Avatar">
+      <img src=".assets/avatar.png" alt="Avatar">
       <p>
         <%
 
